@@ -2,13 +2,12 @@
 # A Recent Blog Posts section created with the Pages widget.
 # This section displays recent blog posts from `content/post/`.
 
-widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
+widget = "pages"  # Do not modify this line!
 active = true  # Activate this widget? true/false
-weight = 60  # Order that this section will appear.
+weight = 10  # Order that this section will appear.
 
-title = "Recent Posts"
-subtitle = ""
+title = "Latest ramblings"
+subtitle = "Hi guys! Welcome to my blog. I mainly write about data science and visualisations in climate science palaeobiology (hoping to expand soon). Enjoy!"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -28,7 +27,6 @@ subtitle = ""
     tag = ""
     category = ""
     publication_type = ""
-    author = ""
     exclude_featured = false
   
 [design]
@@ -37,7 +35,7 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 3
   
 [design.background]
   # Apply a background color, gradient, or image.

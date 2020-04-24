@@ -1,16 +1,17 @@
 +++
 # Experience widget.
-widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
+widget = "experience"  # Do not modify this line!
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
 
 title = "Experience"
 subtitle = ""
 
+# Order that this section will appear in.
+weight = 40
+
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "Jan 2006"
+date_format = "January 2006"
 
 # Experiences.
 #   Add/remove as many `[[experience]]` blocks below as you like.
@@ -18,27 +19,38 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Research Assistant"
+  company = "Department of Palaeontology, FAU"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "Erlangen, Germany"
+  date_start = "2019-02-01"
   date_end = ""
-  description = """
-  Responsibilities include:
+  description = """Assisting Prof. Wolfgang Kiessling with the preparation of a grant proposal as well as with his research."""
   
-  * Analysing
-  * Modelling
-  * Deploying
+[[experience]]
+  title = "Teaching Assistant"
+  company = "Department of Palaeontology, FAU"
+  company_url = ""
+  location = "Erlangen, Germany"
+  date_start = "2018-10-01"
+  date_end = "2019-01-31"
+  description = """
+  Tasked with helping to design the Programming and Statistics module for Masters students in Palaeobiology.
+  
+  Topics included:
+  
+  * Spatial analysis and statistics
+  * Structural equation modelling
+  * Introduction to machine learning
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Research Assistant"
+  company = "Department of Geography, Ankara University"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Ankara, Turkey"
+  date_start = "2014-09-01"
+  date_end = "2016-08-01"
+  description = """Worked together with Dr. Olgu Aydin on analysing climate and natural hazards in Turkey."""
 
 +++
